@@ -13,5 +13,5 @@ att.Slot = "eap_brenten_mag"
 att.Override_ClipSize = 22
 
 att.Mult_MoveSpeed = 0.95
-att.Mult_SightTime = 1.1
-att.Mult_ReloadTime = 1.10
+att.Mult_SightTime = 1.25
+att.Mult_ReloadTime = 1.25

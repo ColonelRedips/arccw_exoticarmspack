@@ -97,8 +97,8 @@ SWEP.SightedSpeedMult = 0.7
 SWEP.SightTime = 0.33
 
 SWEP.IronSightStruct = {
-	Pos = Vector(-4.777, -8.638, 0.925),
-	Ang = Angle(0, 0, 0),
+	Pos = Vector(-4.779, -5, 0.92),
+	Ang = Angle(0.15, 0, 0),
     Magnification = 1,
     SwitchToSound = "", -- sound that plays when switching to this sight
     CrosshairInSights = false
@@ -134,9 +134,9 @@ SWEP.AttachmentElements = {
 		NameChange = "M8E1 SPAR",
 		TrueNameChange = "XM29 OICW",
         Override_IronSightStruct = {
-            Pos = Vector(-4.777, -1.638, -1.725),
-            Ang = Angle(0, 0, 0),
-            Magnification = 1,
+            Pos = Vector(-4.777, -0.5, -1.79),
+            Ang = Angle(0.49, 0, 0),
+            Magnification = 1.1,
         },
         AttPosMods = {
             [1] = {

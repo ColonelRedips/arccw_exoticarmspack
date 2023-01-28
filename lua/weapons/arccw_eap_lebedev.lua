@@ -46,7 +46,7 @@ SWEP.Recoil = 0.45
 SWEP.RecoilSide = 0.2
 SWEP.RecoilRise = 0.05
 
-SWEP.Delay = 60 / 800 -- 60 / RPM.
+SWEP.Delay = 60 / 690 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
 SWEP.Firemodes = {
     {
@@ -82,6 +82,7 @@ SWEP.MeleeHitNPCSound = "physics/main/main_medium_break2.wav"
 
 SWEP.MuzzleEffect = "muzzleflash_4"
 SWEP.ShellModel = "models/shells/shell_9mm.mdl"
+SWEP.ShellMaterial = "models/weapons/arcticcw/shell_556_steel"
 SWEP.ShellEjectPosCorrection = Vector(0, 0, 0)
 SWEP.ShellPitch = 95
 SWEP.ShellScale = 1.25
@@ -94,7 +95,7 @@ SWEP.SightedSpeedMult = 0.75
 SWEP.SightTime = 0.2
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-4.961, -7.388, 1.023),
+    Pos = Vector(-4.960, -4, 1.035),
 	Ang = Angle(0, 0, 0),
     Magnification = 1.1,
     SwitchToSound = "", -- sound that plays when switching to this sight
@@ -220,7 +221,7 @@ SWEP.Attachments = {
     {
         PrintName = "Magazine",
         Slot = "lebby_mag",
-        DefaultAttName = "14-Round standard mag"
+        DefaultAttName = "14-Round Standard Mag"
     },
     {
         PrintName = "Stock",

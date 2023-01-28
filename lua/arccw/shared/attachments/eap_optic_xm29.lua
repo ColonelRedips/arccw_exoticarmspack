@@ -19,7 +19,7 @@ att.HolosightPiece = "models/weapons/arccw/eap/atts/xm29_scope_hsp.mdl"
 
 att.AdditionalSights = {
     {
-        Pos = Vector(-0.03, 12, -2.3),
+        Pos = Vector(-0.03, 13, -2.3),
         Ang = Angle(0, 0, 0),
         Magnification = 1.2,
         Thermal = true,

@@ -9,7 +9,7 @@ SWEP.Trivia_Class = "Submachine Gun"
 SWEP.Trivia_Desc = "Chinese SMG for urban CQC, utilizing design elements from the MP5 and other western SMGs."
 SWEP.Trivia_Manufacturer = "Jianshe Industries"
 SWEP.Trivia_Calibre = "9x19mm Parabellum"
-SWEP.Trivia_Mechanism = "Gas-Operated"
+SWEP.Trivia_Mechanism = "Gas-Operated, Closed Bolt"
 SWEP.Trivia_Country = "China"
 SWEP.Trivia_Year = 2012
 
@@ -40,7 +40,7 @@ SWEP.MuzzleVelocity = 975 -- projectile or phys bullet muzzle velocity
 SWEP.ChamberSize = 1 -- how many rounds can be chambered.
 SWEP.Primary.ClipSize = 30 -- DefaultClip is automatically set.
 
-SWEP.PhysBulletMuzzleVelocity = 900
+SWEP.PhysBulletMuzzleVelocity = 750
 
 SWEP.Recoil = 0.4
 SWEP.RecoilSide = 0.275
@@ -63,8 +63,8 @@ SWEP.Firemodes = {
 SWEP.NPCWeaponType = "weapon_smg"
 SWEP.NPCWeight = 100
 
-SWEP.AccuracyMOA = 5 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
-SWEP.HipDispersion = 275 -- inaccuracy added by hip firing.
+SWEP.AccuracyMOA = 6.5 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.HipDispersion = 260 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 200
 
 SWEP.Primary.Ammo = "pistol" -- what ammo type the gun uses
@@ -85,6 +85,7 @@ SWEP.MeleeHitNPCSound = "physics/body/body_medium_break2.wav"
 
 SWEP.MuzzleEffect = "muzzleflash_4"
 SWEP.ShellModel = "models/shells/shell_9mm.mdl"
+SWEP.ShellMaterial = "models/weapons/arcticcw/shell_556_steel"
 SWEP.ShellEjectPosCorrection = Vector(0, 0, 0)
 SWEP.ShellPitch = 95
 SWEP.ShellScale = 1.25
@@ -97,7 +98,7 @@ SWEP.SightedSpeedMult = 0.7
 SWEP.SightTime = 0.235
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-4.66, -1.781, 0.4),
+    Pos = Vector(-4.65, -0, 0.35),
 	Ang = Angle(0, 0, 0),
     Magnification = 1.1,
     SwitchToSound = "", -- sound that plays when switching to this sight
@@ -201,7 +202,7 @@ SWEP.ExtraSightDist = 10
 SWEP.GuaranteeLaser = true
 
 SWEP.WorldModelOffset = {
-    pos = Vector(-9, 6, -3.5),
+    pos = Vector(-9.5, 6, -3.75),
     ang = Angle(-10, 0, 180),
 	scale = 1.1
 }
@@ -224,10 +225,10 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Underbarrel",
-        Slot = "foregrip",
+        Slot = {"foregrip", "ubgl"},
         Bone = "main",
         Offset = {
-            vpos = Vector(0, -0.987, 10.715),
+            vpos = Vector(0, -0.987, 9),
             vang = Angle(90, 0, -90),
         },
     },
@@ -252,6 +253,7 @@ SWEP.Attachments = {
         Offset = {
             vpos = Vector(0, -2.129, 12.576),
             vang = Angle(90, 0, -90),
+            DefaultAttName = "Standard Muzzle"
         },
         WMScale = Vector(0.7, 0.7, 0.7),
 		ExcludeFlags = {"handguard_sd"},

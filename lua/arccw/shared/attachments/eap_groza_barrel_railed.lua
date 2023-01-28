@@ -12,10 +12,11 @@ att.ModelOffset = Vector(0, 0, 0)
 att.LHIK = true
 att.LHIK_Priority = -2
 
+att.Mult_Range = 1.15
+att.Mult_Recoil = 0.95
+att.Mult_SightTime = 1.1
+att.Mult_AccuracyMOA = 0.90
+
 att.Mult_MoveSpeed = 0.9
-
-att.Mult_Range = 1.25
-att.Mult_Recoil = 0.85
-att.Mult_SightTime = 1.2
-att.Mult_AccuracyMOA = 0.75
-
+att.Mult_SightedSpeedMult = 0.90
+att.Mult_DrawTime = 1.1

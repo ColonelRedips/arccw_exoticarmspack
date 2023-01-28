@@ -9,11 +9,10 @@ att.Desc_Cons = {
 att.AutoStats = true
 att.Slot = "eap_muzbrake"
 
-att.Mult_Recoil = 0.75
+att.Mult_Recoil = 0.80
+att.Mult_AccuracyMOA = 0.90
+att.Mult_DrawTime = 1.5
 att.Mult_SightTime = 1.5
-att.Mult_AccuracyMOA = 0.5
-att.Mult_DrawTime = 1.2
-
 
 
 att.ActivateElements = {"executioner"}

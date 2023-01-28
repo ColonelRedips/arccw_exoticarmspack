@@ -1,7 +1,8 @@
 att.PrintName = "15-Round 5.45mm Mag"
 att.Icon = Material("entities/acwatt_go_ak_mag_15_545.png", "mips smooth")
 att.Description = "Small magazine with lighter load. Improves handling."
-att.Desc_Pros = {}
+att.Desc_Pros = {
+}
 att.Desc_Cons = {"con.magcap"}
 att.SortOrder = 15 + 2000
 att.AutoStats = true
@@ -19,3 +20,6 @@ att.Mult_Penetration = 0.8
 att.Mult_Range = 0.8
 att.Mult_Recoil = 0.8
 att.Mult_RPM = 1.1
+
+att.Override_Trivia_Calibre = "5.45x39mm Soviet"
+att.Override_Ammo = "smg1"

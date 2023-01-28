@@ -9,12 +9,11 @@ att.Desc_Cons = {
 att.AutoStats = true
 att.Slot = "eap_brenten_slide"
 
-att.Mult_Range = 1.4
+att.Mult_Range = 1.25
 att.Mult_Recoil = 0.75
-att.Mult_SightTime = 1.5
-att.Mult_AccuracyMOA = 0.5
-att.Mult_DrawTime = 1.2
-
+att.Mult_AccuracyMOA = 0.75
+att.Mult_DrawTime = 1.25
+att.Mult_SightTime = 1.25
 
 
 att.Override_MuzzleEffectAttachment = 3

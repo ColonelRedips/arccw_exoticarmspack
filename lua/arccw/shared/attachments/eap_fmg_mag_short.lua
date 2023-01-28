@@ -16,3 +16,4 @@ att.Mult_MoveSpeed = 1.05
 att.Mult_SightTime = 0.95
 att.Mult_ReloadTime = 0.95
 
+att.ActivateElements = {"short"}

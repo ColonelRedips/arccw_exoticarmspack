@@ -16,8 +16,8 @@ att.SortOrder = 20
 att.Override_ClipSize = 20
 
 att.Mult_SpeedMult = 0.8
-att.Mult_SightTime = 1.4
-att.Mult_ReloadTime = 1.2
+att.Mult_SightTime = 1.55
+att.Mult_ReloadTime = 1.33
 
 att.Hook_TranslateAnimation = function(wep, anim)
      if anim == "reload" then

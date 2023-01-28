@@ -10,7 +10,7 @@ SWEP.Trivia_Desc = "Rapid-fire Soviet rifle with technology decades ahead of its
 SWEP.Trivia_Manufacturer = "Degtyarev Plant"
 SWEP.Trivia_Calibre = "5.45x39mm Soviet"
 SWEP.Trivia_Mechanism = "Gas-Operated, Balanced Recoil"
-SWEP.Trivia_Country = "Russia"
+SWEP.Trivia_Country = "Union of Soviet Socialist Republics"
 SWEP.Trivia_Year = 1978
 
 if GetConVar("arccw_truenames"):GetBool() then
@@ -65,7 +65,7 @@ SWEP.Firemodes = {
 SWEP.NPCWeaponType = "weapon_ar2"
 SWEP.NPCWeight = 200
 
-SWEP.AccuracyMOA = 4.8 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 5 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 600 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 200
 
@@ -86,6 +86,7 @@ SWEP.MeleeHitNPCSound = "physics/body/body_medium_break2.wav"
 
 SWEP.MuzzleEffect = "muzzleflash_ak47"
 SWEP.ShellModel = "models/shells/shell_556.mdl"
+SWEP.ShellMaterial = "models/weapons/arcticcw/shell_556_steel"
 SWEP.ShellPitch = 90
 SWEP.ShellScale = 1.5
 SWEP.ShellRotateAngle = Angle(0, 180, 0)
@@ -98,8 +99,8 @@ SWEP.SightedSpeedMult = 0.75
 SWEP.SightTime = 0.30
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-5.781, -5.869, -0.48),
-    Ang = Angle(0, 0, 0),
+    Pos = Vector(-5.784, -6, -0.45),
+    Ang = Angle(-0.37, 0, 0),
     Magnification = 1.1,
     SwitchToSound = "", -- sound that plays when switching to this sight
     CrosshairInSights = false

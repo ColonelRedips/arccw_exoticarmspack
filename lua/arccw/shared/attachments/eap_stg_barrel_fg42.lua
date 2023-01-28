@@ -7,11 +7,14 @@ att.Desc_Cons = {}
 att.Slot = "eap_stg_handguard"
 att.AutoStats = true
 
-att.Mult_RPM = 1.5
-
+att.Override_IronSightStruct = {
+    Pos = Vector(-5.598, -10, 0.05),
+    Ang = Angle(-0.31, 0, 0),
+    Magnification = 1.1,
+}
 att.Add_BarrelLength = 10
 att.Mult_Range = 1.2
-
+att.Mult_RPM = 1.5
 
 att.Mult_Sway = 1.1
 att.Mult_MeleeTime = 1.25

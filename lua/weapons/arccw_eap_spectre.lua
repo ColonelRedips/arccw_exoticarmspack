@@ -32,7 +32,7 @@ SWEP.DefaultBodygroups = "0000000000"
 SWEP.Damage = 25
 SWEP.DamageMin = 17 -- damage done at maximum range
 SWEP.Range = 50 -- in METRES
-SWEP.Penetration = 11
+SWEP.Penetration = 6
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
 SWEP.MuzzleVelocity = 975 -- projectile or phys bullet muzzle velocity
@@ -40,7 +40,7 @@ SWEP.MuzzleVelocity = 975 -- projectile or phys bullet muzzle velocity
 SWEP.ChamberSize = 1 -- how many rounds can be chambered.
 SWEP.Primary.ClipSize = 30 -- DefaultClip is automatically set.
 
-SWEP.PhysBulletMuzzleVelocity = 900
+SWEP.PhysBulletMuzzleVelocity = 750
 
 SWEP.Recoil = 0.5
 SWEP.RecoilSide = 0.35
@@ -63,14 +63,14 @@ SWEP.Firemodes = {
 SWEP.NPCWeaponType = "weapon_smg"
 SWEP.NPCWeight = 100
 
-SWEP.AccuracyMOA = 4.5 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 5 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 650 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 100
 
 SWEP.Primary.Ammo = "pistol" -- what ammo type the gun uses
 SWEP.MagID = "stanag" -- the magazine pool this gun draws from
 
-SWEP.ShootVol = 100 -- volume of shoot sound
+SWEP.ShootVol = 110 -- volume of shoot sound
 SWEP.ShootPitch = 100 -- pitch of shoot sound
 
 SWEP.FirstShootSound = "weapons/arccw/eap/spectre/fire.wav"
@@ -87,7 +87,7 @@ SWEP.MuzzleEffect = "muzzleflash_4"
 SWEP.ShellModel = "models/shells/shell_9mm.mdl"
 SWEP.ShellEjectPosCorrection = Vector(0, 0, 0)
 SWEP.ShellPitch = 95
-SWEP.ShellScale = 1.25
+SWEP.ShellScale = 1.15
 SWEP.ShellRotateAngle = Angle(0, 180, 0)
 SWEP.MuzzleEffectAttachment = 1
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
@@ -97,7 +97,7 @@ SWEP.SightedSpeedMult = 0.7
 SWEP.SightTime = 0.3
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-6.569, -6.358, 1.039),
+    Pos = Vector(-6.569, -2, 1.05),
     Ang = Angle(0, 0, 0),
     Magnification = 1.1,
     SwitchToSound = "", -- sound that plays when switching to this sight

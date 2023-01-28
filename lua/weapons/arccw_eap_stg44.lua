@@ -87,7 +87,7 @@ SWEP.MeleeHitNPCSound = "physics/main/main_medium_break2.wav"
 SWEP.MuzzleEffect = "muzzleflash_ak47"
 SWEP.ShellModel = "models/shells/shell_556.mdl"
 SWEP.ShellPitch = 100
-SWEP.ShellScale = 1.25
+SWEP.ShellScale = 1.0
 SWEP.ShellRotateAngle = Angle(0, 180, 0)
 
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
@@ -98,8 +98,8 @@ SWEP.SightedSpeedMult = 0.6
 SWEP.SightTime = 0.330
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-5.606, -13.48, -0.075),
-    Ang = Angle(0.819, 0, 0),
+    Pos = Vector(-5.598, -10, -0.040),
+    Ang = Angle(0.292, 0, 0),
     Magnification = 1,
     SwitchToSound = "", -- sound that plays when switching to this sight
     CrosshairInSights = false
@@ -147,7 +147,7 @@ SWEP.AttachmentElements = {
                 Model = "models/weapons/arccw_go/atts/stock_buftube_lp.mdl",
                 Bone = "main",
                 Offset = {
-                    pos = Vector(0, -1.484, -5.086),
+                    pos = Vector(0, -1.484, -4.92),
                     ang = Angle(90, 0, -90),
                 },
             }
@@ -204,7 +204,7 @@ SWEP.AttachmentElements = {
         VMBodygroups = {{ind = 4, bg = 1}},
         AttPosMods = {
             [2] = {
-                vpos = Vector(0, 0, 10.218),
+                vpos = Vector(0, -0.5, 9),
                 vang = Angle(90, 0, -90),
             }
         },
@@ -267,7 +267,7 @@ SWEP.Attachments = {
         Slot = "foregrip",
         Bone = "main",
         Offset = {
-            vpos = Vector(0, -0.75, 10.218), 
+            vpos = Vector(0, -1.1, 12), 
             vang = Angle(90, 0, -90),
         },
         MergeSlots = {12}

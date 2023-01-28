@@ -11,7 +11,7 @@ SWEP.Trivia_Manufacturer = "TXM Industries"
 SWEP.Trivia_Calibre = "9x19mm Parabellum"
 SWEP.Trivia_Mechanism = "Short recoil"
 SWEP.Trivia_Country = "USA"
-SWEP.Trivia_Year = 2009
+SWEP.Trivia_Year = 2008
 
 if GetConVar("arccw_truenames"):GetBool() then
     SWEP.PrintName = SWEP.TrueName
@@ -65,7 +65,7 @@ SWEP.Firemodes = {
 SWEP.NPCWeaponType = "weapon_smg1"
 SWEP.NPCWeight = 100
 
-SWEP.AccuracyMOA = 7 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 9 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 325 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 75
 
@@ -88,7 +88,7 @@ SWEP.MeleeHitNPCSound = "physics/body/body_medium_break2.wav"
 SWEP.MuzzleEffect = "muzzleflash_smg"
 SWEP.ShellModel = "models/shells/shell_9mm.mdl"
 SWEP.ShellPitch = 100
-SWEP.ShellScale = 1.25
+SWEP.ShellScale = 1.15
 SWEP.ShellRotateAngle = Angle(0, 180, 0)
 
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
@@ -99,8 +99,8 @@ SWEP.SightedSpeedMult = 0.85
 SWEP.SightTime = 0.275
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-6.586, -12.865, -1.282),
-    Ang = Angle(0, 0, 0),
+    Pos = Vector(-6.582, -5, -1.1),
+    Ang = Angle(-0.50, 0, 0),
     Magnification = 1.1,
     SwitchToSound = "", -- sound that plays when switching to this sight
     CrosshairInSights = false

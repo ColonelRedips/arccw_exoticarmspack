@@ -8,6 +8,8 @@ att.Desc_Cons = {
 att.AutoStats = true
 att.Slot = "spectre_barrel"
 
+att.Mult_Range = 0.80
+att.Add_BarrelLength = -6
 att.Mult_AccuracyMOA = 2
 att.Mult_Recoil = 1.2
 att.Mult_SightTime = 0.7

@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - Exotic Arms" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "Thunderstorm-762"
+SWEP.PrintName = "GROZA-1"
 SWEP.TrueName = "OTs-14 Groza"
 SWEP.Trivia_Class = "Assault Rifle"
 SWEP.Trivia_Desc = "Multirole bullpup rifle built for Russian special forces, derived from the Kalashnikov rifle. Effective in combat, but limited in use."
@@ -74,7 +74,8 @@ SWEP.MeleeHitSound = "weapons/arccw/knife/knife_hitwall1.wav"
 SWEP.MeleeHitNPCSound = "physics/body/body_medium_break2.wav"
 
 SWEP.MuzzleEffect = "muzzleflash_4"
-SWEP.ShellModel = "models/shells/shell_556.mdl"
+SWEP.ShellModel = "models/shells/shell_762nato.mdl"
+SWEP.ShellMaterial = "models/weapons/arcticcw/shell_556_steel"
 SWEP.ShellScale = 1
 SWEP.ShellPitch = 100
 
@@ -84,7 +85,7 @@ SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
 SWEP.SpeedMult = 0.85
 SWEP.SightedSpeedMult = 0.7
 SWEP.IronSightStruct = {
-    Pos = Vector(-5.441, -8.606, -0.12),
+    Pos = Vector(-5.441, -6, -0.11),
     Ang = Angle(0, 0, 0),
     Magnification = 1.1
 }

@@ -38,15 +38,15 @@ SWEP.MuzzleVelocity = 125
 SWEP.ChamberSize = 1 -- how many rounds can be chambered.
 SWEP.Primary.ClipSize = 10 -- DefaultClip is automatically set.
 
-SWEP.Recoil = 1.5
-SWEP.RecoilSide = 1
+SWEP.Recoil = 1.42
+SWEP.RecoilSide = 1.15
 
 SWEP.RecoilRise = 0.24
 SWEP.VisualRecoilMult = 1.25
 SWEP.MaxRecoilBlowback = 0.3
 SWEP.MaxRecoilPunch = 1
 
-SWEP.Delay = 60 / 425 -- 60 / RPM.
+SWEP.Delay = 60 / 400 -- 60 / RPM.
 SWEP.Num = 8 -- number of shots per trigger pull.
 SWEP.Firemodes = {
     {
@@ -60,7 +60,7 @@ SWEP.Firemodes = {
     }
 }
 
-SWEP.AccuracyMOA = 10 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 30 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 300 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 150 -- inaccuracy added by moving. Applies in sights as well! Walking speed is considered as "maximum".
 
@@ -91,20 +91,20 @@ SWEP.CamAttachment = 4
 -- Speed mult --
 
 SWEP.SpeedMult = 0.83
-SWEP.SightedSpeedMult = 0.7
-SWEP.SightTime = 0.42
+SWEP.SightedSpeedMult = 0.60
+SWEP.SightTime = 0.36
 SWEP.IronSightStruct = {
-    Pos = Vector(-3.365, -5.125, 0.3),
+    Pos = Vector(-3.365, -2, 0.3),
     Ang = Angle(0, 0, 0),
     Magnification = 1.1
 }
 
 SWEP.HoldtypeHolstered = "passive"
-SWEP.HoldtypeActive = "smg"
+SWEP.HoldtypeActive = "ar2"
 SWEP.HoldtypeSights = "rpg"
 
 SWEP.WorldModelOffset = {
-    pos = Vector(-16.5, 6, -3),
+    pos = Vector(-8.5, 5, -6),
     ang = Angle(-10, 0, 180)
 }
 
@@ -162,7 +162,7 @@ SWEP.AttachmentElements = {
                 Model = "models/weapons/arccw_go/atts/stock_buftube.mdl",
                 Bone = "main",
                 Offset = {
-                    pos = Vector(0, -1.484, -5.086),
+                    pos = Vector(0, -3.00, -4.00),
                     ang = Angle(90, 0, -90),
                 },
             }
@@ -187,7 +187,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Underbarrel",
-        Slot = "foregrip",
+        Slot = {"foregrip", "ubgl"},
         Bone = "main",
         Offset = {
             vpos = Vector(0, -0.192, 13.253),
@@ -225,7 +225,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Stock",
-        Slot = {"go_stock", "eap_usas_stock"},
+        Slot = {"eap_usas_stock", "go_stock", "go_stock_none"},
         DefaultAttName = "Standard Stock"
     },
     {
@@ -247,7 +247,7 @@ SWEP.Attachments = {
         },
     },
     {
-        Hidden = true,
+        Hidden = false,
         Slot = "ugbl",
         Bone = "main",
         Offset = {

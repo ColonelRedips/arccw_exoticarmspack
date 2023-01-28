@@ -10,5 +10,6 @@ att.AutoStats = true
 att.Slot = "eap_usas_stock"
 
 att.Mult_Recoil = 1.15
-att.Mult_SightTime = 1.2
-att.Mult_SpeedMult = 1.15
+att.Mult_SightTime = 0.8
+att.Mult_SpeedMult = 1.10
+att.Mult_DrawTime = 0.90
